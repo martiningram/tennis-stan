@@ -1,5 +1,11 @@
 # tennis-stan
-Jupyter notebooks and data to fit Bayesian models for tennis prediction with Stan
+
+This repository contains notebooks to fit tennis models with Stan. At present,
+there are three different ones in ascending complexity:
+
+* GLM (generalised linear model)
+* Hierarchical GLM
+* Autoregressive Hierarchical GLM
 
 To run the notebooks, you will need the following python packages:
 
@@ -12,4 +18,4 @@ To run the notebooks, you will need the following python packages:
 * scipy
 * dateutil
 
-Feel free to post an issue if something doesn't work.
+Please post an issue if something doesn't work!
